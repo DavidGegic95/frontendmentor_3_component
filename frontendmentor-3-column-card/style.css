@@ -140,3 +140,29 @@ button {
     color: hsl(179, 100%, 13%);
     ;
 }
+
+#button1:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+    border: 2px solid white;
+    transition: 0.3s;
+}
+
+#button2:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+    border: 2px solid white;
+    transition: 0.3s;
+    ;
+}
+
+#button3:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+    border: 2px solid white;
+    transition: 0.3s;
+    ;
+}

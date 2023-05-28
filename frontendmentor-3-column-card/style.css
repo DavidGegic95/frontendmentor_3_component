@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+
+
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+
+}
+
+body {
+
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    margin-top: 5vh;
+    width: 1440px;
+    background-color: rgba(242, 242, 242, 1);
+}
+
+.container {
+    border: none;
+    border-radius: 100px;
+    width: 920px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+
+}
+
+.div1 {
+    background-color: hsl(31, 77%, 52%);
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    height: 430px;
+    width: 294px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding: 46px;
+
+}
+
+.div2 {
+    background-color: hsl(184, 100%, 22%);
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    height: 430px;
+    width: 294px;
+
+    padding: 46px;
+
+}
+
+.div3 {
+    background-color: hsl(179, 100%, 13%);
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    height: 430px;
+    width: 294px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+    padding: 46px;
+
+}
+
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 30px 0;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 30px 0;
+}
+
+h3 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 30px 0;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 70px;
+    line-height: 200%;
+    margin-top: 0px;
+}
+
+img {
+    width: 66px;
+    height: 40px;
+    /* justify-self: flex-start; */
+}
+
+button {
+    width: 146px;
+    height: 48px;
+    border-radius: 30px;
+    border: none;
+
+}
+
+#button1 {
+    color: hsl(31, 77%, 52%);
+    ;
+}
+
+#button2 {
+    color: hsl(184, 100%, 22%);
+    ;
+}
+
+#button3 {
+    color: hsl(179, 100%, 13%);
+    ;
+}
